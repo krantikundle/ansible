@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: install git
+    yum:
+      name: curl
+      state: pesent
